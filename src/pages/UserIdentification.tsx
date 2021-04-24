@@ -40,7 +40,7 @@ export function UserIdentification() {
                 <View style={styles.content}>
                     <View style={styles.form}>
                         <Text style={styles.emoji}>
-                            😀
+                            { isFilled ? '😄' : '😀'}
                         </Text>
 
                         <Text style={styles.title}>
