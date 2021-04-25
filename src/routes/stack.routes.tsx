@@ -23,16 +23,16 @@ const AppRoutes: React.FC = () => (
         />
 
         <stackRoutes.Screen 
-            name="Welcome"
+            name="UserIdentification"
             component={UserIdentification}
         />
 
         <stackRoutes.Screen 
-            name="Welcome"
+            name="Confirmation"
             component={Confirmation}
         />
 
     </stackRoutes.Navigator>
 )
 
-export default AppRoutes
+export default AppRoutes;
